@@ -1,4 +1,4 @@
-FROM fedora:37
+FROM fedora:42
 MAINTAINER sparticvs@popebp.com
 
 RUN dnf update -y && dnf install -y arm-image-installer
